@@ -7,7 +7,7 @@
 
 <!------------------------------------------------------------------------------------------------------------------------------------[ HEAD ]-->
 <head>
-<!--────────────────────────────────────────────────────────────────────────────────────────────────────[ CSS ]-->
+<!--____________________________________________________________________________________________________[ CSS ]-->
 <!--──────────────────────────────────────────────────[↓ 부트스트랩/기본 ]-->
 	<link href="${contextPath}/resources/css/bootstrap.min.css" rel="stylesheet">
 	<link href="${contextPath}/resources/css/main.css" rel="stylesheet">
@@ -17,7 +17,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@600&family=Orbit&display=swap" rel="stylesheet">
 
-<!--────────────────────────────────────────────────────────────────────────────────────────────────────[ JavaScript ]-->
+<!--____________________________________________________________________________________________________[ JavaScript ]-->
 <!--──────────────────────────────────────────────────[↓ 부트스트랩 ]-->
    	<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
 	 integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
@@ -65,6 +65,7 @@
 				href="${contextPath}/member/addMember.do">회원가입</a> | <a href="#">고객
 				센터</a>
 		</form> --%>
+
 	<div id="testing">
 		<form action="${contextPath}/member/login.do" method="post">
 			<div class="mb-3 form-css01">
